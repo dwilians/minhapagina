@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advogado Especialista em Juros Abusivos - Reduza Suas Dívidas em Até 80%</title>
+    <meta name="description" content="Advogado especialista em ações revisionais de juros abusivos. Reduza suas dívidas bancárias, recupere valores pagos indevidamente. Análise gratuita.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Está Pagando <span class="highlight">Juros Abusivos?</span><br>
+                    Reduza Suas Dívidas Bancárias em Até <span class="highlight">80%</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Advogado especialista em ações revisionais. Recupere valores pagos indevidamente e diminua suas parcelas mensais.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contato" class="btn btn-primary btn-large">
+                        <i class="fas fa-file-contract"></i>
+                        ANÁLISE GRATUITA DO SEU CONTRATO
+                    </a>
+                    <a href="https://wa.me/5511969843106" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Confidencial</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Resposta em 24h</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-award"></i>
+                        <span>Especialista OAB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema Section -->
+    <section id="problema" class="problema">
+        <div class="container">
+            <h2 class="section-title">Você Está Sendo Vítima de Juros Abusivos?</h2>
+            <div class="problema-grid">
+                <div class="problema-item">
+                    <i class="fas fa-percentage"></i>
+                    <h3>Juros Muito Altos</h3>
+                    <p>Taxas muito acima da média do mercado estabelecida pelo Banco Central</p>
+                </div>
+                <div class="problema-item">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Parcelas Pesadas</h3>
+                    <p>Prestações que consomem grande parte da sua renda mensal</p>
+                </div>
+                <div class="problema-item">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Medo de Negativação</h3>
+                    <p>Receio de ter o nome incluído no SPC/Serasa por não conseguir pagar</p>
+                </div>
+                <div class="problema-item">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Contratos Confusos</h3>
+                    <p>Documentos difíceis de entender com cláusulas abusivas escondidas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solução Section -->
+    <section id="solucao" class="solucao">
+        <div class="container">
+            <h2 class="section-title">Como Nossa Advocacia Especializada Pode Te Ajudar</h2>
+            <div class="solucao-grid">
+                <div class="solucao-item">
+                    <div class="solucao-icon">
+                        <i class="fas fa-chart-line-down"></i>
+                    </div>
+                    <h3>Redução do Saldo Devedor</h3>
+                    <p>Diminuição da sua dívida em até 80% através de ação revisional</p>
+                </div>
+                <div class="solucao-item">
+                    <div class="solucao-icon">
+                        <i class="fas fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3>Devolução de Valores</h3>
+                    <p>Recuperação de valores pagos indevidamente ao longo do contrato</p>
+                </div>
+                <div class="solucao-item">
+                    <div class="solucao-icon">
+                        <i class="fas fa-calendar-minus"></i>
+                    </div>
+                    <h3>Parcelas Menores</h3>
+                    <p>Redução significativa do valor das parcelas mensais</p>
+                </div>
+                <div class="solucao-item">
+                    <div class="solucao-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Proteção do Nome</h3>
+                    <p>Evitar ou retirar negativação nos órgãos de proteção ao crédito</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculadora Section -->
+    <section id="calculadora" class="calculadora">
+        <div class="container">
+            <h2 class="section-title">Descubra Agora Se Seus Juros São Abusivos</h2>
+            <div class="calculadora-container">
+                <div class="calculadora-form">
+                    <h3>Calculadora de Juros</h3>
+                    <form id="jurosForm">
+                        <div class="form-group">
+                            <label for="valorFinanciado">Valor Financiado (R$)</label>
+                            <input type="number" id="valorFinanciado" name="valorFinanciado" placeholder="Ex: 50000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="numeroParcelas">Número de Parcelas</label>
+                            <input type="number" id="numeroParcelas" name="numeroParcelas" placeholder="Ex: 48" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="valorParcela">Valor da Parcela (R$)</label>
+                            <input type="number" id="valorParcela" name="valorParcela" placeholder="Ex: 1500" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-calculator"></i>
+                            CALCULAR MEUS JUROS
+                        </button>
+                    </form>
+                </div>
+                <div class="calculadora-resultado" id="resultado" style="display: none;">
+                    <h3>Resultado da Análise</h3>
+                    <div id="resultadoConteudo"></div>
+                    <a href="#contato" class="btn btn-primary">QUERO ANÁLISE DETALHADA GRATUITA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona Section -->
+    <section id="como-funciona" class="como-funciona">
+        <div class="container">
+            <h2 class="section-title">Como Funciona Nossa Ação Revisional</h2>
+            <div class="processo-timeline">
+                <div class="processo-item">
+                    <div class="processo-numero">1</div>
+                    <div class="processo-content">
+                        <h3>Análise Gratuita</h3>
+                        <p>Revisamos seu contrato sem custo para identificar possíveis irregularidades</p>
+                    </div>
+                </div>
+                <div class="processo-item">
+                    <div class="processo-numero">2</div>
+                    <div class="processo-content">
+                        <h3>Identificação de Abusos</h3>
+                        <p>Encontramos cláusulas abusivas e juros acima da média do mercado</p>
+                    </div>
+                </div>
+                <div class="processo-item">
+                    <div class="processo-numero">3</div>
+                    <div class="processo-content">
+                        <h3>Ação Judicial</h3>
+                        <p>Entramos com ação revisional para corrigir as irregularidades</p>
+                    </div>
+                </div>
+                <div class="processo-item">
+                    <div class="processo-numero">4</div>
+                    <div class="processo-content">
+                        <h3>Resultado</h3>
+                        <p>Redução da dívida e/ou devolução de valores pagos indevidamente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Advogado Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-foto">
+                    <img src="" alt="Dr. WILIANS DE SOUZA FERREIRA" class="advogado-foto">
+                </div>
+                <div class="sobre-info">
+                    <h2>Conheça o Especialista</h2>
+                    <h3>Dr. WILIANS DE SOUZA FERREIRA</h3>
+                    <p class="oab">OAB/SP nº 242.459</p>
+                    <p class="sobre-descricao">
+                        Advogado especialista em Direito Bancário e do Consumidor com mais de 15 anos de experiência. 
+                        Formado pela UNIP - UNIVERSIDADE PAULISTA, com especialização em Revisional de Juros Abusivos. 
+                        Já ajudou centenas de clientes a reduzirem suas dívidas bancárias e recuperarem valores pagos indevidamente.
+                    </p>
+                    <div class="sobre-especialidades">
+                        <div class="especialidade">
+                            <i class="fas fa-check"></i>
+                            <span>Ações Revisionais de Juros</span>
+                        </div>
+                        <div class="especialidade">
+                            <i class="fas fa-check"></i>
+                            <span>Direito Bancário</span>
+                        </div>
+                        <div class="especialidade">
+                            <i class="fas fa-check"></i>
+                            <span>Direito do Consumidor</span>
+                        </div>
+                        <div class="especialidade">
+                            <i class="fas fa-check"></i>
+                            <span>Negociação de Dívidas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social Section -->
+    <section id="prova-social" class="prova-social">
+        <div class="container">
+            <h2 class="section-title">Resultados Comprovados</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Casos Atendidos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">R$ 2M+</div>
+                    <div class="stat-label">Recuperado para Clientes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Taxa de Sucesso</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Anos de Experiência</div>
+                </div>
+            </div>
+            
+            <div class="depoimentos">
+                <h3>O que nossos clientes dizem</h3>
+                <div class="depoimentos-grid">
+                    <div class="depoimento">
+                        <div class="depoimento-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Consegui reduzir minha dívida de R$ 80.000 para R$ 25.000. Excelente trabalho!"</p>
+                        <div class="depoimento-autor">- Maria S.</div>
+                    </div>
+                    <div class="depoimento">
+                        <div class="depoimento-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Profissional competente e transparente. Recuperei R$ 15.000 pagos indevidamente."</p>
+                        <div class="depoimento-autor">- João P.</div>
+                    </div>
+                    <div class="depoimento">
+                        <div class="depoimento-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Minhas parcelas diminuíram de R$ 2.500 para R$ 900. Recomendo!"</p>
+                        <div class="depoimento-autor">- Ana L.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como saber se meus juros são abusivos?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Juros são considerados abusivos quando superam significativamente a média do mercado estabelecida pelo Banco Central. Nossa calculadora pode fazer essa verificação inicial, mas uma análise detalhada do contrato é necessária para confirmar.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso contestar mesmo tendo assinado o contrato?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! O Código de Defesa do Consumidor protege contra cláusulas abusivas, mesmo em contratos assinados. A assinatura não valida automaticamente todas as condições se elas forem prejudiciais ao consumidor.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto custa o serviço?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Trabalhamos com honorários de êxito, ou seja, você só paga se ganharmos a ação. A análise inicial do seu contrato é totalmente gratuita e sem compromisso.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo demora o processo?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O tempo varia conforme a complexidade do caso e a resposta do banco. Em média, processos de revisão levam de 6 meses a 2 anos. Muitas vezes conseguimos liminares para reduzir parcelas durante o processo.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O banco pode negativar meu nome durante a ação?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Durante o processo judicial, é comum conseguirmos decisões que impedem a negativação ou determinam a retirada do nome dos órgãos de proteção ao crédito, protegendo você durante a tramitação da ação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgência Section -->
+    <section id="urgencia" class="urgencia">
+        <div class="container">
+            <div class="urgencia-content">
+                <h2>Não Deixe Para Depois</h2>
+                <p>Cada dia que passa, você continua pagando juros abusivos. Existem prazos legais para contestar contratos, e quanto mais tempo você espera, mais dinheiro perde.</p>
+                <div class="urgencia-items">
+                    <div class="urgencia-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Prazos prescricionais correndo</span>
+                    </div>
+                    <div class="urgencia-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Juros continuam acumulando</span>
+                    </div>
+                    <div class="urgencia-item">
+                        <i class="fas fa-money-bill"></i>
+                        <span>Mais dinheiro perdido a cada mês</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Pare de Pagar Juros Abusivos Hoje Mesmo</h2>
+            <div class="contato-content">
+                <div class="contato-form">
+                    <h3>Solicite Sua Análise Gratuita</h3>
+                    <form id="contatoForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="valorDivida">Valor aproximado da dívida</label>
+                            <select id="valorDivida" name="valorDivida" required>
+                                <option value="">Selecione</option>
+                                <option value="10000-25000">R$ 10.000 - R$ 25.000</option>
+                                <option value="25000-50000">R$ 25.000 - R$ 50.000</option>
+                                <option value="50000-100000">R$ 50.000 - R$ 100.000</option>
+                                <option value="100000+">Acima de R$ 100.000</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipoDivida">Tipo de dívida</label>
+                            <select id="tipoDivida" name="tipoDivida" required>
+                                <option value="">Selecione</option>
+                                <option value="cartao">Cartão de Crédito</option>
+                                <option value="emprestimo">Empréstimo Pessoal</option>
+                                <option value="financiamento">Financiamento de Veículo</option>
+                                <option value="cheque-especial">Cheque Especial</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="aceito" name="aceito" required>
+                                <span class="checkmark"></span>
+                                Concordo em fornecer meus dados para análise gratuita e contato do escritório
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i>
+                            SOLICITAR ANÁLISE GRATUITA
+                        </button>
+                    </form>
+                    <div class="contato-garantia">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Seus dados estão protegidos e serão tratados com total confidencialidade</span>
+                    </div>
+                </div>
+                <div class="contato-info">
+                    <h3>Outras Formas de Contato</h3>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>(11) 96984-3106</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Telefone</strong>
+                            <p>(11) 3333-3333</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>E-mail</strong>
+                            <p>dwilianssf@hotmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Endereço</strong>
+                            <p>AV. ELÍSIO CORDEIRO DE SIQUEIRA, 470 - SÃO PAULO - SP</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horário de Atendimento</strong>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Dr. WILIANS DE SOUZA FERREIRA</h3>
+                    <p>Advogado Especialista em Juros Abusivos</p>
+                    <p>OAB/SP nº 242.459</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#como-funciona">Como Funciona</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. WILIANS DE SOUZA FERREIRA. Todos os direitos reservados.</p>
+                <p>Este site não oferece garantia de resultados. Cada caso é único e deve ser analisado individualmente.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511969843106" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
